@@ -32,7 +32,7 @@ ___
 ### Finding splice leader sequence (SL) in reads
 This script allows to extract fasta records containing a given motif. By default, it extracts reads containing the *Leishmania tarentolae* splice leader (SL) sequence.
 ```
-find_motif.py [-h] -i INPUT -o OUTPUT [-m MOTIF] [-s SENSITIVITY]
+search_motif.py [-h] -i INPUT -o OUTPUT [-m MOTIF] [-s SENSITIVITY]
 
 optional arguments:
   -h, --help                      Show this help message and exit
